@@ -117,11 +117,11 @@ class GoogleScraper:
 
     def db_connect_test(self):
         try:
-            connection = psycopg2.connect(user = "dbmasteruser",
-                                        password = "test123123!!",
-                                        host = "ls-7e30d342141246f3356ad380e9f1c23023ed3292.cswx9udslx8o.us-west-2.rds.amazonaws.com",
+            connection = psycopg2.connect(user = "",
+                                        password = "",
+                                        host = "",
                                         port = "5432",
-                                        database = "lipp")
+                                        database = "")
 
             cursor = connection.cursor()
             # Print PostgreSQL Connection properties
